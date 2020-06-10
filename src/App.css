@@ -1,7 +1,7 @@
 body{
   margin-top: 0em;
   background-color: black;
-  border: 1em solid white;
+  border: 2em solid white;
 }
 
 .App {
@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-  margin: 3.5em 1em 0em;
+  margin: 3.5em .25em 0em;
   font-family: 'Courier New', Courier, monospace;
   font-size: 5em;
 }
@@ -33,4 +33,24 @@ p{
   h1 {
     font-size: 2.5em;
   }
+
+  .App {
+    height: 75vh;
+  }
+  
+}
+
+.fa {
+  font-size: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.2em 0.5em 0em 0.5em;
+  cursor: pointer;
+  border-radius: 50%;
+  background: black;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.6;
 }
